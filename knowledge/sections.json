@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-07-31T18:01:05.471Z",
+  "generatedAt": "2026-07-31T18:05:32.354Z",
   "sections": [
     {
       "name": "AI",
       "slug": "ai",
       "nodeIds": [
         "3436c2c8-f17e-41a5-b9ce-d05a7dc11c73"
+      ],
+      "count": 1
+    },
+    {
+      "name": "API",
+      "slug": "api",
+      "nodeIds": [
+        "88573983-c28a-43fc-871f-889a0565c51d"
       ],
       "count": 1
     },

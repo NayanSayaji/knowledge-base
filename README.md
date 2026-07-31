@@ -4,8 +4,8 @@
 
 **A searchable, version-controlled map of everything you learn.**
 
-![Knowledge nodes](https://img.shields.io/badge/knowledge_nodes-11-176b4d?style=flat-square)
-![Sections](https://img.shields.io/badge/sections-14-315f52?style=flat-square)
+![Knowledge nodes](https://img.shields.io/badge/knowledge_nodes-12-176b4d?style=flat-square)
+![Sections](https://img.shields.io/badge/sections-15-315f52?style=flat-square)
 ![Storage](https://img.shields.io/badge/storage-Markdown-d89b4a?style=flat-square)
 
 </div>
@@ -18,6 +18,11 @@
 ## AI
 
 - [LangGraph: Agent Orchestration Framework for Reliable AI Agents](knowledge/nodes/langgraph-agent-orchestration-framework-for-reliable-ai-agents.md) · [LangGraph: Agent Orchestration Framework for Reliable AI Agents](https://www.langchain.com/langgraph)
+
+
+## API
+
+- [How to Guarantee API Idempotency? Achieving Idempotency Under High Concurrency \| by Umesh Kumar Yadav \| Jun, 2026 \| Medium](knowledge/nodes/how-to-guarantee-api-idempotency-achieving-idempotency-under-high-concurrency-by-umesh-kumar-yadav-jun-2026-medium.md) · [How to Guarantee API Idempotency? Achieving Idempotency Under High Concurrency \| by Umesh Kumar Yadav \| Jun, 2026 \| Medium](https://medium.com/@umeshcapg/how-to-guarantee-api-idempotency-achieving-idempotency-under-high-concurrency-ed3854aa49c2)
 
 
 ## backend
@@ -93,5 +98,5 @@
 
 ---
 
-<sub>Last synchronized 2026-07-31T18:01:05.472Z. Generated automatically—edit knowledge in
+<sub>Last synchronized 2026-07-31T18:05:32.355Z. Generated automatically—edit knowledge in
 the extension so local data and repository history stay consistent.</sub>
