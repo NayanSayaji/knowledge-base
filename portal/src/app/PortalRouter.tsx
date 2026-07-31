@@ -43,14 +43,6 @@ function PortalShell() {
           </a>
         </div>
         <div className="utility-bar">
-          <div className="section-links section-links-desktop" aria-label="Sections">
-            {sectionChips.map((section) => (
-              <Link key={section.name} className={section.name === "All" ? "active" : undefined} to={section.to}>
-                {section.name}
-                <span>{section.count}</span>
-              </Link>
-            ))}
-          </div>
           <div className="section-links-mobile" aria-label="Sections">
             {Array.from({ length: 3 }).map((_, row) => (
               <div className="section-marquee" key={row}>

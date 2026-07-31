@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-31T18:58:13.377Z",
+  "generatedAt": "2026-07-31T19:07:36.700Z",
   "nodes": [
     {
       "title": "KnowlegeGraph — Developer Field Notes",
@@ -316,12 +316,17 @@
       "title": "System Design Interview: How Would You Implement an API Rate Limiter in a Distributed Environment? | by Arvind Kumar | Jun, 2026 | Medium",
       "summary": "",
       "notes": "",
-      "keywords": [],
-      "tags": [],
+      "keywords": [
+        "Availibility"
+      ],
+      "tags": [
+        "API Tag"
+      ],
       "sections": [
         "HLD",
         "LLD",
-        "SYstem Design"
+        "SYstem Design",
+        "API"
       ],
       "resources": [
         {
@@ -337,7 +342,7 @@
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-31T18:21:00.549Z",
-      "updatedAt": "2026-07-31T18:58:13.356Z"
+      "updatedAt": "2026-07-31T19:07:36.670Z"
     },
     {
       "title": "Concurrency vs. Parallelism vs. Async: Explained Clearly | Code Like A Girl",

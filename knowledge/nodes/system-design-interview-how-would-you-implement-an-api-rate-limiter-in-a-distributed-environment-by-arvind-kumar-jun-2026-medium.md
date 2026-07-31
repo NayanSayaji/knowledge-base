@@ -8,12 +8,13 @@ sections:
   - "HLD"
   - "LLD"
   - "SYstem Design"
+  - "API"
 keywords:
-  []
+  - "Availibility"
 tags:
-  []
+  - "API Tag"
 createdAt: "2026-07-31T18:21:00.549Z"
-updatedAt: "2026-07-31T18:58:13.356Z"
+updatedAt: "2026-07-31T19:07:36.670Z"
 ---
 
 # System Design Interview: How Would You Implement an API Rate Limiter in a Distributed Environment? | by Arvind Kumar | Jun, 2026 | Medium

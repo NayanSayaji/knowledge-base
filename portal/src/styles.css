@@ -181,7 +181,7 @@ kbd {
 .search-results small { color: var(--subtle); }
 .section-links {
   min-width: 0;
-  display: flex;
+  display: none;
   gap: 22px;
   overflow: hidden;
   justify-content: flex-end;
@@ -349,18 +349,19 @@ h1 {
   margin-bottom: 16px;
 }
 .home-page .collection-sections-rail a {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  padding: 10px 14px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--paper-strong);
+  justify-content: flex-start;
+  gap: 6px;
+  width: fit-content;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   color: var(--muted);
+  font-size: 13px;
 }
 .home-page .collection-sections-rail a:hover {
-  border-color: var(--accent);
   color: var(--accent);
 }
 .home-page .collection-sections-rail small {
