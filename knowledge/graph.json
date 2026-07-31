@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-31T18:17:06.085Z",
+  "generatedAt": "2026-07-31T18:21:00.585Z",
   "nodes": [
     {
       "title": "KnowlegeGraph — Developer Field Notes",
@@ -307,6 +307,29 @@
       "favorite": false,
       "createdAt": "2026-07-31T17:17:30.503Z",
       "updatedAt": "2026-07-31T17:18:06.302Z"
+    },
+    {
+      "title": "System Design Interview: How Would You Implement an API Rate Limiter in a Distributed Environment? | by Arvind Kumar | Jun, 2026 | Medium",
+      "summary": "",
+      "notes": "",
+      "keywords": [],
+      "tags": [],
+      "sections": [],
+      "resources": [
+        {
+          "url": "https://medium.com/@codefarm0/system-design-interview-how-would-you-implement-an-api-rate-limiter-in-a-distributed-environment-6a79f9208305",
+          "title": "System Design Interview: How Would You Implement an API Rate Limiter in a Distributed Environment? | by Arvind Kumar | Jun, 2026 | Medium",
+          "type": "article",
+          "website": "medium.com"
+        }
+      ],
+      "relations": [],
+      "id": "e5cbb4f4-1a18-419f-9f41-7da96a87156a",
+      "slug": "system-design-interview-how-would-you-implement-an-api-rate-limiter-in-a-distributed-environment-by-arvind-kumar-jun-2026-medium",
+      "archived": false,
+      "favorite": false,
+      "createdAt": "2026-07-31T18:21:00.549Z",
+      "updatedAt": "2026-07-31T18:21:00.549Z"
     },
     {
       "title": "Concurrency vs. Parallelism vs. Async: Explained Clearly | Code Like A Girl",

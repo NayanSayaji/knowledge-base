@@ -4,7 +4,7 @@
 
 **A searchable, version-controlled map of everything you learn.**
 
-![Knowledge nodes](https://img.shields.io/badge/knowledge_nodes-13-176b4d?style=flat-square)
+![Knowledge nodes](https://img.shields.io/badge/knowledge_nodes-14-176b4d?style=flat-square)
 ![Sections](https://img.shields.io/badge/sections-16-315f52?style=flat-square)
 ![Storage](https://img.shields.io/badge/storage-Markdown-d89b4a?style=flat-square)
 
@@ -99,9 +99,10 @@
 - [Extensions](knowledge/nodes/extensions.md) · [Extensions](chrome://extensions/)
 - [KnowlegeGraph — Developer Field Notes](knowledge/nodes/knowlegegraph-developer-field-notes.md) · [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowledge-base/#/section/Backend)
 - [Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@cef5184](knowledge/nodes/sync-1-knowlegegraph-change-nayansayaji-knowledge-base-cef5184.md) · [Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@cef5184](https://github.com/NayanSayaji/knowledge-base/actions/runs/30651903439/job/91226920964)
+- [System Design Interview: How Would You Implement an API Rate Limiter in a Distributed Environment? \| by Arvind Kumar \| Jun, 2026 \| Medium](knowledge/nodes/system-design-interview-how-would-you-implement-an-api-rate-limiter-in-a-distributed-environment-by-arvind-kumar-jun-2026-medium.md) · [System Design Interview: How Would You Implement an API Rate Limiter in a Distributed Environment? \| by Arvind Kumar \| Jun, 2026 \| Medium](https://medium.com/@codefarm0/system-design-interview-how-would-you-implement-an-api-rate-limiter-in-a-distributed-environment-6a79f9208305)
 
 
 ---
 
-<sub>Last synchronized 2026-07-31T18:17:06.087Z. Generated automatically—edit knowledge in
+<sub>Last synchronized 2026-07-31T18:21:00.586Z. Generated automatically—edit knowledge in
 the extension so local data and repository history stay consistent.</sub>
