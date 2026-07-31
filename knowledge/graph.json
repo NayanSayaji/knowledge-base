@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-31T18:27:07.645Z",
+  "generatedAt": "2026-07-31T18:41:04.463Z",
   "nodes": [
     {
       "title": "KnowlegeGraph — Developer Field Notes",
@@ -242,7 +242,8 @@
       "tags": [],
       "sections": [
         "System Design",
-        "Backend"
+        "Backend",
+        "lld"
       ],
       "resources": [
         {
@@ -258,7 +259,7 @@
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-31T16:30:56.690Z",
-      "updatedAt": "2026-07-31T18:27:07.597Z"
+      "updatedAt": "2026-07-31T18:41:04.419Z"
     },
     {
       "title": "Chrome Firefox Extension Plan",

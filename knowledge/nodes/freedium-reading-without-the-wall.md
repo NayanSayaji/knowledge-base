@@ -7,12 +7,13 @@ favorite: false
 sections:
   - "System Design"
   - "Backend"
+  - "lld"
 keywords:
   []
 tags:
   []
 createdAt: "2026-07-31T16:30:56.690Z"
-updatedAt: "2026-07-31T18:27:07.597Z"
+updatedAt: "2026-07-31T18:41:04.419Z"
 ---
 
 # Freedium — Reading, without the wall.

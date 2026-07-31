@@ -5,7 +5,7 @@
 **A searchable, version-controlled map of everything you learn.**
 
 ![Knowledge nodes](https://img.shields.io/badge/knowledge_nodes-14-176b4d?style=flat-square)
-![Sections](https://img.shields.io/badge/sections-16-315f52?style=flat-square)
+![Sections](https://img.shields.io/badge/sections-17-315f52?style=flat-square)
 ![Storage](https://img.shields.io/badge/storage-Markdown-d89b4a?style=flat-square)
 
 </div>
@@ -72,6 +72,11 @@
 - [LangGraph: Agent Orchestration Framework for Reliable AI Agents](knowledge/nodes/langgraph-agent-orchestration-framework-for-reliable-ai-agents.md) · [LangGraph: Agent Orchestration Framework for Reliable AI Agents](https://www.langchain.com/langgraph)
 
 
+## lld
+
+- [Freedium — Reading, without the wall.](knowledge/nodes/freedium-reading-without-the-wall.md) · [Freedium - Freedium](https://freedium-mirror.cfd/https://medium.com/womenintechnology/28-core-system-design-concepts-explained-through-the-failures-they-prevent-35af0377520f)
+
+
 ## nkwno
 
 - [KnowlegeGraph Documentation](knowledge/nodes/knowlegegraph-documentation.md) · [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowlege-base/#/)
@@ -104,5 +109,5 @@
 
 ---
 
-<sub>Last synchronized 2026-07-31T18:27:07.646Z. Generated automatically—edit knowledge in
+<sub>Last synchronized 2026-07-31T18:41:04.464Z. Generated automatically—edit knowledge in
 the extension so local data and repository history stay consistent.</sub>
