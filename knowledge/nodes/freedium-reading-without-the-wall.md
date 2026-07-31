@@ -12,11 +12,11 @@ keywords:
 tags:
   []
 createdAt: "2026-07-31T16:30:56.690Z"
-updatedAt: "2026-07-31T16:48:16.059Z"
+updatedAt: "2026-07-31T18:27:07.597Z"
 ---
 
 # Freedium — Reading, without the wall.
 
 ## Links
 
-- [Freedium — Reading, without the wall.](https://freedium-mirror.cfd/https://medium.com/womenintechnology/28-core-system-design-concepts-explained-through-the-failures-they-prevent-35af0377520f)
+- [Freedium - Freedium](https://freedium-mirror.cfd/https://medium.com/womenintechnology/28-core-system-design-concepts-explained-through-the-failures-they-prevent-35af0377520f)

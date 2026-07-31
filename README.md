@@ -33,7 +33,7 @@
 ## Backend
 
 - [Concurrency vs. Parallelism vs. Async: Explained Clearly \| Code Like A Girl](knowledge/nodes/concurrency-vs-parallelism-vs-async-explained-clearly-code-like-a-girl.md) · [Concurrency vs. Parallelism vs. Async: Explained Clearly \| Code Like A Girl](https://code.likeagirl.io/concurrency-parallelism-async-47312e0be553)
-- [Freedium — Reading, without the wall.](knowledge/nodes/freedium-reading-without-the-wall.md) · [Freedium — Reading, without the wall.](https://freedium-mirror.cfd/https://medium.com/womenintechnology/28-core-system-design-concepts-explained-through-the-failures-they-prevent-35af0377520f)
+- [Freedium — Reading, without the wall.](knowledge/nodes/freedium-reading-without-the-wall.md) · [Freedium - Freedium](https://freedium-mirror.cfd/https://medium.com/womenintechnology/28-core-system-design-concepts-explained-through-the-failures-they-prevent-35af0377520f)
 
 
 ## Blob storage
@@ -90,7 +90,7 @@
 ## System Design
 
 - [Concurrency vs. Parallelism vs. Async: Explained Clearly \| Code Like A Girl](knowledge/nodes/concurrency-vs-parallelism-vs-async-explained-clearly-code-like-a-girl.md) · [Concurrency vs. Parallelism vs. Async: Explained Clearly \| Code Like A Girl](https://code.likeagirl.io/concurrency-parallelism-async-47312e0be553)
-- [Freedium — Reading, without the wall.](knowledge/nodes/freedium-reading-without-the-wall.md) · [Freedium — Reading, without the wall.](https://freedium-mirror.cfd/https://medium.com/womenintechnology/28-core-system-design-concepts-explained-through-the-failures-they-prevent-35af0377520f)
+- [Freedium — Reading, without the wall.](knowledge/nodes/freedium-reading-without-the-wall.md) · [Freedium - Freedium](https://freedium-mirror.cfd/https://medium.com/womenintechnology/28-core-system-design-concepts-explained-through-the-failures-they-prevent-35af0377520f)
 
 
 ## Unsorted
@@ -104,5 +104,5 @@
 
 ---
 
-<sub>Last synchronized 2026-07-31T18:21:00.586Z. Generated automatically—edit knowledge in
+<sub>Last synchronized 2026-07-31T18:27:07.646Z. Generated automatically—edit knowledge in
 the extension so local data and repository history stay consistent.</sub>
