@@ -1,26 +1,14 @@
 import { createHashRouter, Link, NavLink, Outlet, useParams } from "react-router";
 import { RouterProvider } from "react-router/dom";
-import { useEffect, useMemo, useState } from "react";
-import Fuse from "fuse.js";
+import { useState } from "react";
 import { formatDate, repositoryUrl } from "../lib/portal-data";
 import { usePortalData, PortalDataProvider } from "./PortalDataContext";
 import type { KnowledgeGraph, KnowledgeNode, PortalStats, SectionIndex } from "../types";
-import { MarkdownDocument } from "../features/topic/MarkdownDocument";
 import { TopicList } from "../components/TopicList";
 import { buildSectionIndex, derivedStats } from "../lib/portal-data";
 
 function PortalShell() {
   const { nodes, sections, stats } = usePortalData();
-  const [query, setQuery] = useState("");
-  const fuse = useMemo(
-    () =>
-      new Fuse(nodes, {
-        keys: ["title", "summary", "notes", "sections", "tags", "keywords"],
-        threshold: 0.3,
-      }),
-    [nodes],
-  );
-  const searchResults = query ? fuse.search(query).map(({ item }) => item) : [];
 
   return (
     <div className="portal-shell">
@@ -39,8 +27,6 @@ function PortalShell() {
             <NavLink end to="/">
               Topics
             </NavLink>
-            <NavLink to="/search">Search</NavLink>
-            <NavLink to="/graph">Graph</NavLink>
             <NavLink to="/timeline">Timeline</NavLink>
             <NavLink to="/stats">Stats</NavLink>
           </nav>
@@ -49,25 +35,6 @@ function PortalShell() {
           </a>
         </div>
         <div className="utility-bar">
-          <div className="global-search">
-            <span aria-hidden="true">⌕</span>
-            <input
-              aria-label="Search your knowledge"
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-              placeholder="Search topics, tags, sections…"
-            />
-            {query && (
-              <div className="search-results">
-                {searchResults.slice(0, 6).map((node) => (
-                  <Link key={node.id} to={`/topic/${node.slug}`} onClick={() => setQuery("")}>
-                    <strong>{node.title}</strong>
-                    <small>{node.sections.join(" · ")}</small>
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
           <div className="section-links" aria-label="Sections">
             {sections.slice(0, 5).map((section) => (
               <Link key={section.name} to={`/section/${encodeURIComponent(section.name)}`}>
@@ -75,6 +42,9 @@ function PortalShell() {
                 <span>{section.count}</span>
               </Link>
             ))}
+          </div>
+          <div className="header-note">
+            <span>{nodes.length}</span> topics
           </div>
         </div>
       </header>
@@ -89,8 +59,26 @@ function PortalShell() {
 }
 
 function TopicHome() {
-  const { nodes, stats } = usePortalData();
-  const recent = [...nodes].sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+  const { nodes, sections, stats } = usePortalData();
+  const [query, setQuery] = useState("");
+  const recent = [...nodes]
+    .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))
+    .filter((node) => {
+      const haystack = [
+        node.title,
+        node.summary,
+        node.notes,
+        node.sections.join(" "),
+        node.tags.join(" "),
+        node.keywords.join(" "),
+        node.resources.map((resource) => resource.url).join(" "),
+      ]
+        .join(" ")
+        .toLowerCase();
+      return !query.trim() || haystack.includes(query.trim().toLowerCase());
+    });
+  const featured = recent[0];
+
   return (
     <div className="home-page">
       <section className="home-intro">
@@ -100,6 +88,13 @@ function TopicHome() {
         </div>
         <div className="intro-note">
           <p>A minimal reading list for systems, software, and the links between them.</p>
+          <input
+            className="home-search"
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder="Search topics, tags, or links..."
+            aria-label="Search topics"
+          />
           <div className="stats-inline">
             <span>
               <strong>{stats.topics}</strong> topics
@@ -113,160 +108,84 @@ function TopicHome() {
           </div>
         </div>
       </section>
-      <TopicList nodes={recent} />
-    </div>
-  );
-}
 
-function SearchRoute() {
-  const { nodes } = usePortalData();
-  const [query, setQuery] = useState("");
-  const fuse = useMemo(
-    () =>
-      new Fuse(nodes, {
-        keys: ["title", "summary", "notes", "sections", "tags", "keywords"],
-        threshold: 0.3,
-      }),
-    [nodes],
-  );
-  const results = query.trim() ? fuse.search(query).map(({ item }) => item) : nodes;
-  return (
-    <>
-      <div className="page-heading">
-        <p className="eyebrow">Search</p>
-        <h1 className="page-title">Find a topic.</h1>
-        <p className="lede">Search titles, summaries, sections, tags, and notes.</p>
+      {featured && (
+        <section className="featured-wrap">
+          <p className="collection-label">Latest entry</p>
+          <a className="featured-story" href={featured.resources[0]?.url ?? `#/topic/${featured.slug}`}>
+            <div className="featured-meta">
+              <span>{featured.sections[0] ?? "Unsorted"}</span>
+              <time dateTime={featured.updatedAt}>{formatDate(featured.updatedAt)}</time>
+            </div>
+            <h2>{featured.title}</h2>
+            <p>{featured.summary || "Open this entry to read the complete note."}</p>
+            <span className="read-link">
+              Read entry <span aria-hidden="true">↗</span>
+            </span>
+          </a>
+        </section>
+      )}
+
+      <div className="collection-layout">
+        <section className="collection-feed">
+          <div className="collection-heading">
+            <div>
+              <p className="collection-label">The collection</p>
+              <h2>Recently updated</h2>
+            </div>
+          </div>
+          <TopicList nodes={recent.slice(featured ? 1 : 0)} />
+        </section>
+        <aside className="collection-sections">
+          <p className="collection-label">Browse sections</p>
+          {sections.map((section) => {
+            const count = nodes.filter((node) => node.sections.includes(section)).length;
+            return (
+              <a href={`#/section/${encodeURIComponent(section)}`} key={section}>
+                <span>{section}</span>
+                <small>{count}</small>
+              </a>
+            );
+          })}
+        </aside>
       </div>
-      <input
-        className="large-search"
-        aria-label="Search all entries"
-        autoFocus
-        value={query}
-        onChange={(event) => setQuery(event.target.value)}
-        placeholder="Topic, tag, section, or keyword…"
-      />
-      <p className="result-count" aria-live="polite">
-        {results.length} {results.length === 1 ? "topic" : "topics"}
-      </p>
-      <TopicList nodes={results} />
-    </>
+    </div>
   );
 }
 
 function SectionRoute() {
   const { nodes } = usePortalData();
   const { name = "" } = useParams();
-  const selected = nodes.filter((node) => node.sections.includes(name));
+  const [query, setQuery] = useState("");
+  const section = decodeURIComponent(name);
+  const selected = nodes.filter((node) => node.sections.includes(section));
+  const filtered = query.trim()
+    ? selected.filter((node) =>
+        [node.title, node.summary, node.tags.join(" "), node.keywords.join(" ")]
+          .join(" ")
+          .toLowerCase()
+          .includes(query.trim().toLowerCase()),
+      )
+    : selected;
+
   return (
     <>
       <p className="breadcrumb">
-        <Link to="/">Home</Link> / Sections / {name}
+        <Link to="/">Home</Link> / Sections / {section}
       </p>
       <div className="page-heading">
         <p className="eyebrow">Section</p>
-        <h1 className="page-title">{name}</h1>
-        <p className="lede">{selected.length} topics in this section.</p>
+        <h1 className="page-title">{section}</h1>
+        <p className="lede">{filtered.length} topics in this section.</p>
       </div>
-      <TopicList nodes={selected} />
-    </>
-  );
-}
-
-function TopicRoute() {
-  const { nodes } = usePortalData();
-  const { slug = "" } = useParams();
-  const node = nodes.find((candidate) => candidate.slug === slug);
-  const markdownUrl = `./knowledge/nodes/${encodeURIComponent(slug)}.md`;
-  const [markdown, setMarkdown] = useState("");
-
-  useEffect(() => {
-    setMarkdown("");
-    fetch(markdownUrl)
-      .then((response) => (response.ok ? response.text() : Promise.reject()))
-      .then(setMarkdown)
-      .catch(() => {
-        if (node && import.meta.env.DEV) {
-          setMarkdown(`# ${node.title}\n\n## Overview\n\n${node.summary}\n\n## Notes\n\nPortal preview content.`);
-        }
-      });
-  }, [markdownUrl, node]);
-
-  if (!node) {
-    return (
-      <div className="empty-panel">
-        Topic not found. <Link to="/">Return home</Link>
-      </div>
-    );
-  }
-
-  const related = node.relations
-    .map((relation) => ({ relation, node: nodes.find((item) => item.id === relation.targetId) }))
-    .filter((item): item is { relation: (typeof node.relations)[number]; node: KnowledgeNode } => Boolean(item.node));
-
-  return (
-    <>
-      <p className="breadcrumb">
-        <Link to="/">Home</Link> / <Link to={`/section/${encodeURIComponent(node.sections[0] ?? "Unsorted")}`}>{node.sections[0] ?? "Unsorted"}</Link> / {node.title}
-      </p>
-      <article className="topic-layout">
-        <div>
-          <header className="topic-header">
-            <div className="tag-row">
-              {node.sections.map((value) => <span key={value}>{value}</span>)}
-              {node.tags.map((value) => <span className="tag" key={value}>{value}</span>)}
-            </div>
-            <h1 className="page-title">{node.title}</h1>
-            {node.summary && <p className="topic-summary">{node.summary}</p>}
-            <p className="topic-updated">
-              Last updated <time dateTime={node.updatedAt}>{formatDate(node.updatedAt)}</time> · {node.resources.length}{" "}
-              {node.resources.length === 1 ? "link" : "links"}
-            </p>
-          </header>
-          {markdown ? <MarkdownDocument markdown={markdown} /> : <div className="loading">Loading topic…</div>}
-        </div>
-        <aside className="topic-aside">
-          <div>
-            <h3>Links</h3>
-            {node.resources.length ? (
-              node.resources.map((resource) => (
-                <a key={resource.url} href={resource.url} target="_blank" rel="noreferrer">
-                  <span>{resource.title || resource.website}</span>
-                  <small>{resource.website || resource.type} ↗</small>
-                </a>
-              ))
-            ) : (
-              <p>No links attached.</p>
-            )}
-          </div>
-          <div>
-            <h3>Related topics</h3>
-            {related.length ? (
-              related.map(({ relation, node: relatedNode }) => (
-                <Link key={relation.targetId} to={`/topic/${relatedNode.slug}`}>
-                  <span>{relatedNode.title}</span>
-                  <small>{relation.type}</small>
-                </Link>
-              ))
-            ) : (
-              <p>No related topics yet.</p>
-            )}
-          </div>
-        </aside>
-      </article>
-    </>
-  );
-}
-
-function GraphRoute() {
-  const { nodes } = usePortalData();
-  return (
-    <>
-      <div className="page-heading">
-        <p className="eyebrow">Graph</p>
-        <h1 className="page-title">Connections</h1>
-        <p className="lede">A simple map of how topics relate to each other.</p>
-      </div>
-      <TopicList nodes={[...nodes].sort((a, b) => b.relations.length - a.relations.length)} />
+      <input
+        className="home-search"
+        value={query}
+        onChange={(event) => setQuery(event.target.value)}
+        placeholder="Search this section..."
+        aria-label={`Search ${section}`}
+      />
+      <TopicList nodes={filtered} />
     </>
   );
 }
@@ -283,6 +202,7 @@ function TimelineRoute() {
       result[month] = [...(result[month] ?? []), node];
       return result;
     }, {});
+
   return (
     <>
       <div className="page-heading">
@@ -336,10 +256,7 @@ const router = createHashRouter([
     element: <PortalShell />,
     children: [
       { index: true, element: <TopicHome /> },
-      { path: "search", element: <SearchRoute /> },
       { path: "section/:name", element: <SectionRoute /> },
-      { path: "topic/:slug", element: <TopicRoute /> },
-      { path: "graph", element: <GraphRoute /> },
       { path: "timeline", element: <TimelineRoute /> },
       { path: "stats", element: <StatsRoute /> },
     ],
@@ -357,7 +274,13 @@ export function PortalRouter({
 }) {
   const active = graph.nodes.filter((node) => !node.archived);
   return (
-    <PortalDataProvider value={{ nodes: active, sections: sections.length ? sections : buildSectionIndex(active), stats: stats ?? derivedStats(active) }}>
+    <PortalDataProvider
+      value={{
+        nodes: active,
+        sections: sections.length ? sections : buildSectionIndex(active),
+        stats: stats ?? derivedStats(active),
+      }}
+    >
       <RouterProvider router={router} />
     </PortalDataProvider>
   );

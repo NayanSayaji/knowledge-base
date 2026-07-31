@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-31T16:50:02.025Z",
+  "generatedAt": "2026-07-31T17:17:30.532Z",
   "nodes": [
     {
       "title": "LangGraph: Agent Orchestration Framework for Reliable AI Agents",
@@ -186,6 +186,29 @@
       "favorite": false,
       "createdAt": "2026-07-26T15:09:39.628Z",
       "updatedAt": "2026-07-26T15:09:39.628Z"
+    },
+    {
+      "title": "URL Shortener System Design at Global Scale: Replication Lag, Fallbacks, and Takedowns | Code Like A Girl",
+      "summary": "",
+      "notes": "",
+      "keywords": [],
+      "tags": [],
+      "sections": [],
+      "resources": [
+        {
+          "url": "https://medium.com/code-like-a-girl/global-url-shortener-architecture-multi-region-takedowns-32248dd26e19",
+          "title": "URL Shortener System Design at Global Scale: Replication Lag, Fallbacks, and Takedowns | Code Like A Girl",
+          "type": "article",
+          "website": "medium.com"
+        }
+      ],
+      "relations": [],
+      "id": "d72b0542-a773-41a5-a2fa-b082b756124d",
+      "slug": "url-shortener-system-design-at-global-scale-replication-lag-fallbacks-and-takedowns-code-like-a-girl",
+      "archived": false,
+      "favorite": false,
+      "createdAt": "2026-07-31T17:17:30.503Z",
+      "updatedAt": "2026-07-31T17:17:30.503Z"
     },
     {
       "title": "Concurrency vs. Parallelism vs. Async: Explained Clearly | Code Like A Girl",
