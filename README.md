@@ -39,22 +39,22 @@
 
 ## jnkw
 
-- [KnowlegeGraph Documentation](knowledge/nodes/knowlegegraph-documentation.md) · [KnowlegeGraph Documentation](https://nayansayaji.github.io/knowlege-base/#/graph)
+- [KnowlegeGraph Documentation](knowledge/nodes/knowlegegraph-documentation.md) · [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowlege-base/#/)
 
 
 ## know
 
-- [KnowlegeGraph Documentation](knowledge/nodes/knowlegegraph-documentation.md) · [KnowlegeGraph Documentation](https://nayansayaji.github.io/knowlege-base/#/graph)
+- [KnowlegeGraph Documentation](knowledge/nodes/knowlegegraph-documentation.md) · [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowlege-base/#/)
 
 
 ## know.
 
-- [KnowlegeGraph Documentation](knowledge/nodes/knowlegegraph-documentation.md) · [KnowlegeGraph Documentation](https://nayansayaji.github.io/knowlege-base/#/graph)
+- [KnowlegeGraph Documentation](knowledge/nodes/knowlegegraph-documentation.md) · [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowlege-base/#/)
 
 
 ## knw
 
-- [KnowlegeGraph Documentation](knowledge/nodes/knowlegegraph-documentation.md) · [KnowlegeGraph Documentation](https://nayansayaji.github.io/knowlege-base/#/graph)
+- [KnowlegeGraph Documentation](knowledge/nodes/knowlegegraph-documentation.md) · [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowlege-base/#/)
 
 
 ## langgraph
@@ -64,7 +64,7 @@
 
 ## nkwno
 
-- [KnowlegeGraph Documentation](knowledge/nodes/knowlegegraph-documentation.md) · [KnowlegeGraph Documentation](https://nayansayaji.github.io/knowlege-base/#/graph)
+- [KnowlegeGraph Documentation](knowledge/nodes/knowlegegraph-documentation.md) · [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowlege-base/#/)
 
 
 ## REDIS
@@ -91,5 +91,5 @@
 
 ---
 
-<sub>Last synchronized 2026-07-31T17:19:05.175Z. Generated automatically—edit knowledge in
+<sub>Last synchronized 2026-07-31T17:33:43.187Z. Generated automatically—edit knowledge in
 the extension so local data and repository history stay consistent.</sub>
