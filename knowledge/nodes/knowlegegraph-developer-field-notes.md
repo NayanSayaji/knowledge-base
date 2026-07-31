@@ -5,17 +5,17 @@ slug: "knowlegegraph-developer-field-notes"
 archived: false
 favorite: false
 sections:
-  []
+  - "lld"
 keywords:
   []
 tags:
   []
 createdAt: "2026-07-31T17:47:18.537Z"
-updatedAt: "2026-07-31T18:01:05.427Z"
+updatedAt: "2026-07-31T18:41:36.674Z"
 ---
 
 # KnowlegeGraph — Developer Field Notes
 
 ## Links
 
-- [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowledge-base/#/section/Backend)
+- [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowledge-base/#/graph)

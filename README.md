@@ -17,34 +17,34 @@
 
 ## AI
 
-- [LangGraph: Agent Orchestration Framework for Reliable AI Agents](knowledge/nodes/langgraph-agent-orchestration-framework-for-reliable-ai-agents.md) · [LangGraph: Agent Orchestration Framework for Reliable AI Agents](https://www.langchain.com/langgraph)
+- [LangGraph: Agent Orchestration Framework for Reliable AI Agents](knowledge/nodes/langgraph-agent-orchestration-framework-for-reliable-ai-agents.md)
 
 
 ## API
 
-- [How to Guarantee API Idempotency? Achieving Idempotency Under High Concurrency \| by Umesh Kumar Yadav \| Jun, 2026 \| Medium](knowledge/nodes/how-to-guarantee-api-idempotency-achieving-idempotency-under-high-concurrency-by-umesh-kumar-yadav-jun-2026-medium.md) · [How to Guarantee API Idempotency? Achieving Idempotency Under High Concurrency \| by Umesh Kumar Yadav \| Jun, 2026 \| Medium](https://medium.com/@umeshcapg/how-to-guarantee-api-idempotency-achieving-idempotency-under-high-concurrency-ed3854aa49c2)
+- [How to Guarantee API Idempotency? Achieving Idempotency Under High Concurrency \| by Umesh Kumar Yadav \| Jun, 2026 \| Medium](knowledge/nodes/how-to-guarantee-api-idempotency-achieving-idempotency-under-high-concurrency-by-umesh-kumar-yadav-jun-2026-medium.md)
 
 
 ## backend
 
-- [URL Shortener System Design at Global Scale: Replication Lag, Fallbacks, and Takedowns \| Code Like A Girl](knowledge/nodes/url-shortener-system-design-at-global-scale-replication-lag-fallbacks-and-takedowns-code-like-a-girl.md) · [URL Shortener System Design at Global Scale: Replication Lag, Fallbacks, and Takedowns \| Code Like A Girl](https://medium.com/code-like-a-girl/global-url-shortener-architecture-multi-region-takedowns-32248dd26e19)
+- [URL Shortener System Design at Global Scale: Replication Lag, Fallbacks, and Takedowns \| Code Like A Girl](knowledge/nodes/url-shortener-system-design-at-global-scale-replication-lag-fallbacks-and-takedowns-code-like-a-girl.md)
 
 
 ## Backend
 
-- [Concurrency vs. Parallelism vs. Async: Explained Clearly \| Code Like A Girl](knowledge/nodes/concurrency-vs-parallelism-vs-async-explained-clearly-code-like-a-girl.md) · [Concurrency vs. Parallelism vs. Async: Explained Clearly \| Code Like A Girl](https://code.likeagirl.io/concurrency-parallelism-async-47312e0be553)
+- [Concurrency vs. Parallelism vs. Async: Explained Clearly \| Code Like A Girl](knowledge/nodes/concurrency-vs-parallelism-vs-async-explained-clearly-code-like-a-girl.md)
 - [Freedium — Reading, without the wall.](knowledge/nodes/freedium-reading-without-the-wall.md) · [Freedium - Freedium](https://freedium-mirror.cfd/https://medium.com/womenintechnology/28-core-system-design-concepts-explained-through-the-failures-they-prevent-35af0377520f)
 
 
 ## Blob storage
 
-- [System Design Interview: How Would You Let Users Upload Huge Files Even If the Internet Disconnects Midway? \| by Arvind Kumar \| Jun, 2026 \| Medium](knowledge/nodes/system-design-interview-how-would-you-let-users-upload-huge-files-even-if-the-internet-disconnects-midway-by-arvind-kumar-jun-2026-medium.md) · [System Design Interview: How Would You Let Users Upload Huge Files Even If the Internet Disconnects Midway? \| by Arvind Kumar \| Jun, 2026 \| Medium](https://medium.com/@codefarm0/system-design-interview-how-would-you-let-users-upload-huge-files-even-if-the-internet-disconnects-cab5a3b0abae)
+- [System Design Interview: How Would You Let Users Upload Huge Files Even If the Internet Disconnects Midway? \| by Arvind Kumar \| Jun, 2026 \| Medium](knowledge/nodes/system-design-interview-how-would-you-let-users-upload-huge-files-even-if-the-internet-disconnects-midway-by-arvind-kumar-jun-2026-medium.md)
 
 
 ## HLD
 
-- [Redis as agent memory \| Docs](knowledge/nodes/redis-as-agent-memory-docs.md) · [Redis as agent memory \| Docs](https://redis.io/docs/latest/develop/use-cases/agent-memory/)
-- [Redis Pub/sub \| Docs](knowledge/nodes/redis-pub-sub-docs.md) · [Redis Pub/sub \| Docs](https://redis.io/docs/latest/develop/pubsub/)
+- [Redis as agent memory \| Docs](knowledge/nodes/redis-as-agent-memory-docs.md)
+- [Redis Pub/sub \| Docs](knowledge/nodes/redis-pub-sub-docs.md)
 
 
 ## jnkw
@@ -69,12 +69,13 @@
 
 ## langgraph
 
-- [LangGraph: Agent Orchestration Framework for Reliable AI Agents](knowledge/nodes/langgraph-agent-orchestration-framework-for-reliable-ai-agents.md) · [LangGraph: Agent Orchestration Framework for Reliable AI Agents](https://www.langchain.com/langgraph)
+- [LangGraph: Agent Orchestration Framework for Reliable AI Agents](knowledge/nodes/langgraph-agent-orchestration-framework-for-reliable-ai-agents.md)
 
 
 ## lld
 
 - [Freedium — Reading, without the wall.](knowledge/nodes/freedium-reading-without-the-wall.md) · [Freedium - Freedium](https://freedium-mirror.cfd/https://medium.com/womenintechnology/28-core-system-design-concepts-explained-through-the-failures-they-prevent-35af0377520f)
+- [KnowlegeGraph — Developer Field Notes](knowledge/nodes/knowlegegraph-developer-field-notes.md)
 
 
 ## nkwno
@@ -84,30 +85,29 @@
 
 ## REDIS
 
-- [Redis Pub/sub \| Docs](knowledge/nodes/redis-pub-sub-docs.md) · [Redis Pub/sub \| Docs](https://redis.io/docs/latest/develop/pubsub/)
+- [Redis Pub/sub \| Docs](knowledge/nodes/redis-pub-sub-docs.md)
 
 
 ## review
 
-- [Redis as agent memory \| Docs](knowledge/nodes/redis-as-agent-memory-docs.md) · [Redis as agent memory \| Docs](https://redis.io/docs/latest/develop/use-cases/agent-memory/)
+- [Redis as agent memory \| Docs](knowledge/nodes/redis-as-agent-memory-docs.md)
 
 
 ## System Design
 
-- [Concurrency vs. Parallelism vs. Async: Explained Clearly \| Code Like A Girl](knowledge/nodes/concurrency-vs-parallelism-vs-async-explained-clearly-code-like-a-girl.md) · [Concurrency vs. Parallelism vs. Async: Explained Clearly \| Code Like A Girl](https://code.likeagirl.io/concurrency-parallelism-async-47312e0be553)
+- [Concurrency vs. Parallelism vs. Async: Explained Clearly \| Code Like A Girl](knowledge/nodes/concurrency-vs-parallelism-vs-async-explained-clearly-code-like-a-girl.md)
 - [Freedium — Reading, without the wall.](knowledge/nodes/freedium-reading-without-the-wall.md) · [Freedium - Freedium](https://freedium-mirror.cfd/https://medium.com/womenintechnology/28-core-system-design-concepts-explained-through-the-failures-they-prevent-35af0377520f)
 
 
 ## Unsorted
 
-- [Chrome Firefox Extension Plan](knowledge/nodes/chrome-firefox-extension-plan.md) · [Chrome Firefox Extension Plan](https://chatgpt.com/c/6a65b977-7f30-83ee-a596-f6ea97ff03f4)
-- [Extensions](knowledge/nodes/extensions.md) · [Extensions](chrome://extensions/)
-- [KnowlegeGraph — Developer Field Notes](knowledge/nodes/knowlegegraph-developer-field-notes.md) · [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowledge-base/#/section/Backend)
-- [Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@cef5184](knowledge/nodes/sync-1-knowlegegraph-change-nayansayaji-knowledge-base-cef5184.md) · [Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@cef5184](https://github.com/NayanSayaji/knowledge-base/actions/runs/30651903439/job/91226920964)
-- [System Design Interview: How Would You Implement an API Rate Limiter in a Distributed Environment? \| by Arvind Kumar \| Jun, 2026 \| Medium](knowledge/nodes/system-design-interview-how-would-you-implement-an-api-rate-limiter-in-a-distributed-environment-by-arvind-kumar-jun-2026-medium.md) · [System Design Interview: How Would You Implement an API Rate Limiter in a Distributed Environment? \| by Arvind Kumar \| Jun, 2026 \| Medium](https://medium.com/@codefarm0/system-design-interview-how-would-you-implement-an-api-rate-limiter-in-a-distributed-environment-6a79f9208305)
+- [Chrome Firefox Extension Plan](knowledge/nodes/chrome-firefox-extension-plan.md)
+- [Extensions](knowledge/nodes/extensions.md)
+- [Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@cef5184](knowledge/nodes/sync-1-knowlegegraph-change-nayansayaji-knowledge-base-cef5184.md)
+- [System Design Interview: How Would You Implement an API Rate Limiter in a Distributed Environment? \| by Arvind Kumar \| Jun, 2026 \| Medium](knowledge/nodes/system-design-interview-how-would-you-implement-an-api-rate-limiter-in-a-distributed-environment-by-arvind-kumar-jun-2026-medium.md)
 
 
 ---
 
-<sub>Last synchronized 2026-07-31T18:41:04.464Z. Generated automatically—edit knowledge in
+<sub>Last synchronized 2026-07-31T18:42:08.730Z. Generated automatically—edit knowledge in
 the extension so local data and repository history stay consistent.</sub>

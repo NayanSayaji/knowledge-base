@@ -36,6 +36,9 @@ function PortalShell() {
         </div>
         <div className="utility-bar">
           <div className="section-links" aria-label="Sections">
+            <Link className="active" to="/">
+              All
+            </Link>
             {sections.slice(0, 5).map((section) => (
               <Link key={section.name} to={`/section/${encodeURIComponent(section.name)}`}>
                 {section.name}
@@ -82,10 +85,10 @@ function TopicHome() {
       <section className="home-intro">
         <div>
           <p className="eyebrow">Knowledge topics</p>
-          <h1>Simple notes, linked by idea.</h1>
+          <h1>Simple list of what you read.</h1>
         </div>
         <div className="intro-note">
-          <p>A minimal reading list for systems, software, and the links between them.</p>
+          <p>A simple list of blogs, docs, and pages you want to keep in one place.</p>
           <input
             className="home-search"
             value={query}
