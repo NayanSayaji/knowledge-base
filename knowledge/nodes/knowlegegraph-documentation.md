@@ -15,7 +15,7 @@ keywords:
 tags:
   []
 createdAt: "2026-07-26T16:18:49.066Z"
-updatedAt: "2026-07-31T17:33:43.150Z"
+updatedAt: "2026-07-31T17:37:27.990Z"
 ---
 
 # KnowlegeGraph Documentation

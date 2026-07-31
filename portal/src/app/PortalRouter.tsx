@@ -139,10 +139,10 @@ function TopicHome() {
         <aside className="collection-sections">
           <p className="collection-label">Browse sections</p>
           {sections.map((section) => {
-            const count = nodes.filter((node) => node.sections.includes(section)).length;
+            const count = nodes.filter((node) => node.sections.includes(section.name)).length;
             return (
-              <a href={`#/section/${encodeURIComponent(section)}`} key={section}>
-                <span>{section}</span>
+              <a href={`#/section/${encodeURIComponent(section.name)}`} key={section.name}>
+                <span>{section.name}</span>
                 <small>{count}</small>
               </a>
             );
