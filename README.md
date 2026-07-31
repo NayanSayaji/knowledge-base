@@ -103,5 +103,5 @@
 
 ---
 
-<sub>Last synchronized 2026-07-31T18:13:53.690Z. Generated automatically—edit knowledge in
+<sub>Last synchronized 2026-07-31T18:17:06.087Z. Generated automatically—edit knowledge in
 the extension so local data and repository history stay consistent.</sub>

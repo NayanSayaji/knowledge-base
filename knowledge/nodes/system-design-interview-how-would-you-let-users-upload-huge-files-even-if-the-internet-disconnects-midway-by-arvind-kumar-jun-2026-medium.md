@@ -11,7 +11,7 @@ keywords:
 tags:
   []
 createdAt: "2026-07-31T18:13:53.640Z"
-updatedAt: "2026-07-31T18:13:53.640Z"
+updatedAt: "2026-07-31T18:17:06.049Z"
 ---
 
 # System Design Interview: How Would You Let Users Upload Huge Files Even If the Internet Disconnects Midway? | by Arvind Kumar | Jun, 2026 | Medium
