@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-31T17:37:28.017Z",
+  "generatedAt": "2026-07-31T17:39:13.835Z",
   "nodes": [
     {
       "title": "LangGraph: Agent Orchestration Framework for Reliable AI Agents",
@@ -27,6 +27,29 @@
       "favorite": false,
       "createdAt": "2026-07-26T16:00:25.909Z",
       "updatedAt": "2026-07-26T16:00:25.909Z"
+    },
+    {
+      "title": "Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@cef5184",
+      "summary": "",
+      "notes": "",
+      "keywords": [],
+      "tags": [],
+      "sections": [],
+      "resources": [
+        {
+          "url": "https://github.com/NayanSayaji/knowledge-base/actions/runs/30651903439/job/91226920964",
+          "title": "Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@cef5184",
+          "type": "article",
+          "website": "github.com"
+        }
+      ],
+      "relations": [],
+      "id": "37058dfa-416e-4394-bcc6-886df03bfc18",
+      "slug": "sync-1-knowlegegraph-change-nayansayaji-knowledge-base-cef5184",
+      "archived": false,
+      "favorite": false,
+      "createdAt": "2026-07-31T17:39:13.816Z",
+      "updatedAt": "2026-07-31T17:39:13.816Z"
     },
     {
       "id": "4b83ea7a-d7f4-49cb-84e9-85222ce191b0",
