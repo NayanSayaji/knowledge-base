@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-07-31T18:42:08.729Z",
+  "generatedAt": "2026-07-31T18:50:28.779Z",
   "sections": [
+    {
+      "name": "3d",
+      "slug": "3d",
+      "nodeIds": [
+        "291bbe22-f946-4391-a19a-02b228f072a9"
+      ],
+      "count": 1
+    },
     {
       "name": "AI",
       "slug": "ai",
