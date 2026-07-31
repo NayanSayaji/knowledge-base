@@ -1,11 +1,19 @@
 {
-  "generatedAt": "2026-07-31T17:17:30.533Z",
+  "generatedAt": "2026-07-31T17:19:05.174Z",
   "sections": [
     {
       "name": "AI",
       "slug": "ai",
       "nodeIds": [
         "3436c2c8-f17e-41a5-b9ce-d05a7dc11c73"
+      ],
+      "count": 1
+    },
+    {
+      "name": "backend",
+      "slug": "backend",
+      "nodeIds": [
+        "d72b0542-a773-41a5-a2fa-b082b756124d"
       ],
       "count": 1
     },
@@ -105,10 +113,9 @@
       "slug": "unsorted",
       "nodeIds": [
         "c9dd26a2-1f08-407c-9f2b-dc7af0ad8952",
-        "b6f06e45-fc79-4191-a144-a4e909f1aa4f",
-        "d72b0542-a773-41a5-a2fa-b082b756124d"
+        "b6f06e45-fc79-4191-a144-a4e909f1aa4f"
       ],
-      "count": 3
+      "count": 2
     }
   ]
 }

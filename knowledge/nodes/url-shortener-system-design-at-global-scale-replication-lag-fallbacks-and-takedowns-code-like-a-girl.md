@@ -5,13 +5,13 @@ slug: "url-shortener-system-design-at-global-scale-replication-lag-fallbacks-and
 archived: false
 favorite: false
 sections:
-  []
+  - "backend"
 keywords:
   []
 tags:
   []
 createdAt: "2026-07-31T17:17:30.503Z"
-updatedAt: "2026-07-31T17:17:30.503Z"
+updatedAt: "2026-07-31T17:18:06.302Z"
 ---
 
 # URL Shortener System Design at Global Scale: Replication Lag, Fallbacks, and Takedowns | Code Like A Girl

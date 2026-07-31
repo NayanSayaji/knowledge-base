@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-31T17:17:30.532Z",
+  "generatedAt": "2026-07-31T17:19:05.174Z",
   "nodes": [
     {
       "title": "LangGraph: Agent Orchestration Framework for Reliable AI Agents",
@@ -193,7 +193,9 @@
       "notes": "",
       "keywords": [],
       "tags": [],
-      "sections": [],
+      "sections": [
+        "backend"
+      ],
       "resources": [
         {
           "url": "https://medium.com/code-like-a-girl/global-url-shortener-architecture-multi-region-takedowns-32248dd26e19",
@@ -208,7 +210,7 @@
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-31T17:17:30.503Z",
-      "updatedAt": "2026-07-31T17:17:30.503Z"
+      "updatedAt": "2026-07-31T17:18:06.302Z"
     },
     {
       "title": "Concurrency vs. Parallelism vs. Async: Explained Clearly | Code Like A Girl",

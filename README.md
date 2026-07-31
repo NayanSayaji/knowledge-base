@@ -5,7 +5,7 @@
 **A searchable, version-controlled map of everything you learn.**
 
 ![Knowledge nodes](https://img.shields.io/badge/knowledge_nodes-9-176b4d?style=flat-square)
-![Sections](https://img.shields.io/badge/sections-13-315f52?style=flat-square)
+![Sections](https://img.shields.io/badge/sections-14-315f52?style=flat-square)
 ![Storage](https://img.shields.io/badge/storage-Markdown-d89b4a?style=flat-square)
 
 </div>
@@ -18,6 +18,11 @@
 ## AI
 
 - [LangGraph: Agent Orchestration Framework for Reliable AI Agents](knowledge/nodes/langgraph-agent-orchestration-framework-for-reliable-ai-agents.md) · [LangGraph: Agent Orchestration Framework for Reliable AI Agents](https://www.langchain.com/langgraph)
+
+
+## backend
+
+- [URL Shortener System Design at Global Scale: Replication Lag, Fallbacks, and Takedowns \| Code Like A Girl](knowledge/nodes/url-shortener-system-design-at-global-scale-replication-lag-fallbacks-and-takedowns-code-like-a-girl.md) · [URL Shortener System Design at Global Scale: Replication Lag, Fallbacks, and Takedowns \| Code Like A Girl](https://medium.com/code-like-a-girl/global-url-shortener-architecture-multi-region-takedowns-32248dd26e19)
 
 
 ## Backend
@@ -82,10 +87,9 @@
 
 - [Chrome Firefox Extension Plan](knowledge/nodes/chrome-firefox-extension-plan.md) · [Chrome Firefox Extension Plan](https://chatgpt.com/c/6a65b977-7f30-83ee-a596-f6ea97ff03f4)
 - [Extensions](knowledge/nodes/extensions.md) · [Extensions](chrome://extensions/)
-- [URL Shortener System Design at Global Scale: Replication Lag, Fallbacks, and Takedowns \| Code Like A Girl](knowledge/nodes/url-shortener-system-design-at-global-scale-replication-lag-fallbacks-and-takedowns-code-like-a-girl.md) · [URL Shortener System Design at Global Scale: Replication Lag, Fallbacks, and Takedowns \| Code Like A Girl](https://medium.com/code-like-a-girl/global-url-shortener-architecture-multi-region-takedowns-32248dd26e19)
 
 
 ---
 
-<sub>Last synchronized 2026-07-31T17:17:30.534Z. Generated automatically—edit knowledge in
+<sub>Last synchronized 2026-07-31T17:19:05.175Z. Generated automatically—edit knowledge in
 the extension so local data and repository history stay consistent.</sub>
