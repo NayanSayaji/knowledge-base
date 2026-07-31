@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-31T17:39:13.835Z",
-  "topics": 10,
+  "generatedAt": "2026-07-31T17:47:18.565Z",
+  "topics": 11,
   "sections": 14,
-  "resources": 10,
+  "resources": 11,
   "resourceTypes": {
-    "article": 10
+    "article": 11
   },
-  "averageTags": 0.1,
+  "averageTags": 0.09090909090909091,
   "relationships": 0
 }
