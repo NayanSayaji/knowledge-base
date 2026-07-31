@@ -87,11 +87,11 @@
 
 - [Chrome Firefox Extension Plan](knowledge/nodes/chrome-firefox-extension-plan.md) · [Chrome Firefox Extension Plan](https://chatgpt.com/c/6a65b977-7f30-83ee-a596-f6ea97ff03f4)
 - [Extensions](knowledge/nodes/extensions.md) · [Extensions](chrome://extensions/)
-- [KnowlegeGraph — Developer Field Notes](knowledge/nodes/knowlegegraph-developer-field-notes.md) · [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowledge-base/)
+- [KnowlegeGraph — Developer Field Notes](knowledge/nodes/knowlegegraph-developer-field-notes.md) · [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowledge-base/#/section/Backend)
 - [Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@cef5184](knowledge/nodes/sync-1-knowlegegraph-change-nayansayaji-knowledge-base-cef5184.md) · [Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@cef5184](https://github.com/NayanSayaji/knowledge-base/actions/runs/30651903439/job/91226920964)
 
 
 ---
 
-<sub>Last synchronized 2026-07-31T17:47:18.567Z. Generated automatically—edit knowledge in
+<sub>Last synchronized 2026-07-31T18:01:05.472Z. Generated automatically—edit knowledge in
 the extension so local data and repository history stay consistent.</sub>
