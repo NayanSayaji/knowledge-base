@@ -4,8 +4,8 @@
 
 **A searchable, version-controlled map of everything you learn.**
 
-![Knowledge nodes](https://img.shields.io/badge/knowledge_nodes-12-176b4d?style=flat-square)
-![Sections](https://img.shields.io/badge/sections-15-315f52?style=flat-square)
+![Knowledge nodes](https://img.shields.io/badge/knowledge_nodes-13-176b4d?style=flat-square)
+![Sections](https://img.shields.io/badge/sections-16-315f52?style=flat-square)
 ![Storage](https://img.shields.io/badge/storage-Markdown-d89b4a?style=flat-square)
 
 </div>
@@ -34,6 +34,11 @@
 
 - [Concurrency vs. Parallelism vs. Async: Explained Clearly \| Code Like A Girl](knowledge/nodes/concurrency-vs-parallelism-vs-async-explained-clearly-code-like-a-girl.md) · [Concurrency vs. Parallelism vs. Async: Explained Clearly \| Code Like A Girl](https://code.likeagirl.io/concurrency-parallelism-async-47312e0be553)
 - [Freedium — Reading, without the wall.](knowledge/nodes/freedium-reading-without-the-wall.md) · [Freedium — Reading, without the wall.](https://freedium-mirror.cfd/https://medium.com/womenintechnology/28-core-system-design-concepts-explained-through-the-failures-they-prevent-35af0377520f)
+
+
+## Blob storage
+
+- [System Design Interview: How Would You Let Users Upload Huge Files Even If the Internet Disconnects Midway? \| by Arvind Kumar \| Jun, 2026 \| Medium](knowledge/nodes/system-design-interview-how-would-you-let-users-upload-huge-files-even-if-the-internet-disconnects-midway-by-arvind-kumar-jun-2026-medium.md) · [System Design Interview: How Would You Let Users Upload Huge Files Even If the Internet Disconnects Midway? \| by Arvind Kumar \| Jun, 2026 \| Medium](https://medium.com/@codefarm0/system-design-interview-how-would-you-let-users-upload-huge-files-even-if-the-internet-disconnects-cab5a3b0abae)
 
 
 ## HLD
@@ -98,5 +103,5 @@
 
 ---
 
-<sub>Last synchronized 2026-07-31T18:05:32.355Z. Generated automatically—edit knowledge in
+<sub>Last synchronized 2026-07-31T18:13:53.690Z. Generated automatically—edit knowledge in
 the extension so local data and repository history stay consistent.</sub>

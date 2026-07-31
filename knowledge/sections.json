@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T18:05:32.354Z",
+  "generatedAt": "2026-07-31T18:13:53.689Z",
   "sections": [
     {
       "name": "AI",
@@ -33,6 +33,14 @@
         "fcc7ffc4-5f28-488f-a07a-505c295b44f2"
       ],
       "count": 2
+    },
+    {
+      "name": "Blob storage",
+      "slug": "blob-storage",
+      "nodeIds": [
+        "a23f92e7-7d9a-4371-b5ec-6b9e77296c84"
+      ],
+      "count": 1
     },
     {
       "name": "HLD",
