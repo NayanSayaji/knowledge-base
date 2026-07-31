@@ -354,14 +354,15 @@ h1 {
   justify-content: flex-start;
   gap: 6px;
   width: fit-content;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper-strong);
   color: var(--muted);
   font-size: 13px;
 }
 .home-page .collection-sections-rail a:hover {
+  border-color: var(--accent);
   color: var(--accent);
 }
 .home-page .collection-sections-rail small {
