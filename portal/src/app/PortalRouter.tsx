@@ -9,6 +9,14 @@ import { buildSectionIndex, derivedStats } from "../lib/portal-data";
 
 function PortalShell() {
   const { nodes, sections, stats } = usePortalData();
+  const sectionChips = [
+    { name: "All", count: nodes.length, to: "/" },
+    ...sections.map((section) => ({
+      name: section.name,
+      count: section.count,
+      to: `/section/${encodeURIComponent(section.name)}`,
+    })),
+  ];
 
   return (
     <div className="portal-shell">
@@ -35,15 +43,30 @@ function PortalShell() {
           </a>
         </div>
         <div className="utility-bar">
-          <div className="section-links" aria-label="Sections">
-            <Link className="active" to="/">
-              All
-            </Link>
-            {sections.slice(0, 5).map((section) => (
-              <Link key={section.name} to={`/section/${encodeURIComponent(section.name)}`}>
+          <div className="section-links section-links-desktop" aria-label="Sections">
+            {sectionChips.map((section) => (
+              <Link key={section.name} className={section.name === "All" ? "active" : undefined} to={section.to}>
                 {section.name}
                 <span>{section.count}</span>
               </Link>
+            ))}
+          </div>
+          <div className="section-links-mobile" aria-label="Sections">
+            {Array.from({ length: 3 }).map((_, row) => (
+              <div className="section-marquee" key={row}>
+                <div className="section-marquee-track">
+                  {[...sectionChips, ...sectionChips].map((section, index) => (
+                    <Link
+                      key={`${row}-${section.name}-${index}`}
+                      className={section.name === "All" ? "active" : undefined}
+                      to={section.to}
+                    >
+                      {section.name}
+                      <span>{section.count}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
           <div className="header-note">
@@ -133,32 +156,16 @@ function TopicHome() {
         })} />
       </section>
 
-      <section className="section-accordions">
-        <div className="section-heading">
-          <div>
-            <p className="collection-label">Sections</p>
-            <h2>Open a section to see its topics</h2>
-          </div>
-        </div>
-        {sections.map((section) => {
-          const grouped = nodes.filter((node) => node.sections.includes(section.name));
-          const filtered = grouped.filter((node) => {
-            const haystack = [node.title, node.summary, node.notes, node.tags.join(" "), node.keywords.join(" ")]
-              .join(" ")
-              .toLowerCase();
-            return !query.trim() || haystack.includes(query.trim().toLowerCase());
-          });
-          return (
-            <details className="section-accordion" key={section.name}>
-              <summary>
-                <span>{section.name}</span>
-                <small>{filtered.length}</small>
-              </summary>
-              <TopicList nodes={filtered} />
-            </details>
-          );
-        })}
-      </section>
+      <aside className="collection-sections collection-sections-rail">
+        <p className="collection-label">Sections</p>
+        {sections.map((section) => (
+          <Link key={section.name} to={`/section/${encodeURIComponent(section.name)}`}>
+            <span>{section.name}</span>
+            <small>{section.count}</small>
+          </Link>
+        ))}
+      </aside>
+
     </div>
   );
 }

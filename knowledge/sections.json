@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T18:50:28.779Z",
+  "generatedAt": "2026-07-31T18:58:13.378Z",
   "sections": [
     {
       "name": "3d",
@@ -55,9 +55,10 @@
       "slug": "hld",
       "nodeIds": [
         "4b83ea7a-d7f4-49cb-84e9-85222ce191b0",
-        "bc763847-e913-4691-9e1b-c419d15479b3"
+        "bc763847-e913-4691-9e1b-c419d15479b3",
+        "e5cbb4f4-1a18-419f-9f41-7da96a87156a"
       ],
-      "count": 2
+      "count": 3
     },
     {
       "name": "jnkw",
@@ -109,6 +110,14 @@
       "count": 2
     },
     {
+      "name": "LLD",
+      "slug": "lld",
+      "nodeIds": [
+        "e5cbb4f4-1a18-419f-9f41-7da96a87156a"
+      ],
+      "count": 1
+    },
+    {
       "name": "nkwno",
       "slug": "nkwno",
       "nodeIds": [
@@ -142,15 +151,22 @@
       "count": 2
     },
     {
+      "name": "SYstem Design",
+      "slug": "system-design",
+      "nodeIds": [
+        "e5cbb4f4-1a18-419f-9f41-7da96a87156a"
+      ],
+      "count": 1
+    },
+    {
       "name": "Unsorted",
       "slug": "unsorted",
       "nodeIds": [
         "c9dd26a2-1f08-407c-9f2b-dc7af0ad8952",
         "b6f06e45-fc79-4191-a144-a4e909f1aa4f",
-        "37058dfa-416e-4394-bcc6-886df03bfc18",
-        "e5cbb4f4-1a18-419f-9f41-7da96a87156a"
+        "37058dfa-416e-4394-bcc6-886df03bfc18"
       ],
-      "count": 4
+      "count": 3
     }
   ]
 }

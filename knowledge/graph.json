@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-31T18:50:28.778Z",
+  "generatedAt": "2026-07-31T18:58:13.377Z",
   "nodes": [
     {
       "title": "KnowlegeGraph — Developer Field Notes",
@@ -318,7 +318,11 @@
       "notes": "",
       "keywords": [],
       "tags": [],
-      "sections": [],
+      "sections": [
+        "HLD",
+        "LLD",
+        "SYstem Design"
+      ],
       "resources": [
         {
           "url": "https://medium.com/@codefarm0/system-design-interview-how-would-you-implement-an-api-rate-limiter-in-a-distributed-environment-6a79f9208305",
@@ -333,7 +337,7 @@
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-31T18:21:00.549Z",
-      "updatedAt": "2026-07-31T18:21:00.549Z"
+      "updatedAt": "2026-07-31T18:58:13.356Z"
     },
     {
       "title": "Concurrency vs. Parallelism vs. Async: Explained Clearly | Code Like A Girl",

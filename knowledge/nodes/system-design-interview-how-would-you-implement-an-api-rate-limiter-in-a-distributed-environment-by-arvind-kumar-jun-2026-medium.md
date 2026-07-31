@@ -5,13 +5,15 @@ slug: "system-design-interview-how-would-you-implement-an-api-rate-limiter-in-a-
 archived: false
 favorite: false
 sections:
-  []
+  - "HLD"
+  - "LLD"
+  - "SYstem Design"
 keywords:
   []
 tags:
   []
 createdAt: "2026-07-31T18:21:00.549Z"
-updatedAt: "2026-07-31T18:21:00.549Z"
+updatedAt: "2026-07-31T18:58:13.356Z"
 ---
 
 # System Design Interview: How Would You Implement an API Rate Limiter in a Distributed Environment? | by Arvind Kumar | Jun, 2026 | Medium
