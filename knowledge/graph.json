@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-31T19:12:36.014Z",
+  "generatedAt": "2026-08-01T13:21:46.802Z",
   "nodes": [
     {
       "title": "KnowlegeGraph — Developer Field Notes",
@@ -26,7 +26,7 @@
       ],
       "resources": [
         {
-          "url": "https://nayansayaji.github.io/knowledge-base/#/",
+          "url": "https://nayansayaji.github.io/knowledge-base/",
           "title": "KnowlegeGraph — Developer Field Notes",
           "type": "article",
           "website": "nayansayaji.github.io"
@@ -38,7 +38,7 @@
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-31T17:47:18.537Z",
-      "updatedAt": "2026-07-31T19:12:35.989Z"
+      "updatedAt": "2026-08-01T13:21:46.772Z"
     },
     {
       "title": "LangGraph: Agent Orchestration Framework for Reliable AI Agents",

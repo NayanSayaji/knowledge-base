@@ -20,11 +20,11 @@ tags:
   - "hgj"
   - "ghjknm."
 createdAt: "2026-07-31T17:47:18.537Z"
-updatedAt: "2026-07-31T19:12:35.989Z"
+updatedAt: "2026-08-01T13:21:46.772Z"
 ---
 
 # KnowlegeGraph — Developer Field Notes
 
 ## Links
 
-- [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowledge-base/#/)
+- [KnowlegeGraph — Developer Field Notes](https://nayansayaji.github.io/knowledge-base/)
