@@ -339,8 +339,9 @@ h1 {
   position: sticky;
   top: 120px;
   align-self: start;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
   gap: 10px;
   padding: 14px;
   border: 1px solid var(--line);
@@ -348,15 +349,16 @@ h1 {
   background: var(--paper-strong);
 }
 .home-page .collection-sections-rail .collection-label {
-  grid-column: 1 / -1;
+  flex: 0 0 100%;
   margin-bottom: 16px;
 }
 .home-page .collection-sections-rail a {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: space-between;
   gap: 8px;
-  width: 100%;
+  width: max-content;
+  min-width: 0;
   padding: 8px 12px;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -372,6 +374,7 @@ h1 {
   color: var(--subtle);
   font-size: 11px;
   font-variant-numeric: tabular-nums;
+  flex: 0 0 auto;
 }
 .featured-wrap { padding-top: 20px; border-top: 1px solid var(--line-strong); }
 .featured-story {

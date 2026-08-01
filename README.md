@@ -4,7 +4,7 @@
 
 **A searchable, version-controlled map of everything you learn.**
 
-![Knowledge nodes](https://img.shields.io/badge/knowledge_nodes-14-176b4d?style=flat-square)
+![Knowledge nodes](https://img.shields.io/badge/knowledge_nodes-15-176b4d?style=flat-square)
 ![Sections](https://img.shields.io/badge/sections-21-315f52?style=flat-square)
 ![Storage](https://img.shields.io/badge/storage-Markdown-d89b4a?style=flat-square)
 
@@ -123,10 +123,11 @@
 
 - [Chrome Firefox Extension Plan](knowledge/nodes/chrome-firefox-extension-plan.md)
 - [Extensions](knowledge/nodes/extensions.md)
+- [Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@14010c9](knowledge/nodes/sync-1-knowlegegraph-change-nayansayaji-knowledge-base-14010c9.md)
 - [Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@cef5184](knowledge/nodes/sync-1-knowlegegraph-change-nayansayaji-knowledge-base-cef5184.md)
 
 
 ---
 
-<sub>Last synchronized 2026-08-01T13:21:46.803Z. Generated automatically—edit knowledge in
+<sub>Last synchronized 2026-08-01T13:27:22.883Z. Generated automatically—edit knowledge in
 the extension so local data and repository history stay consistent.</sub>

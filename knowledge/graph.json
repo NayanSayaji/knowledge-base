@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-01T13:21:46.802Z",
+  "generatedAt": "2026-08-01T13:27:22.882Z",
   "nodes": [
     {
       "title": "KnowlegeGraph — Developer Field Notes",
@@ -114,6 +114,29 @@
       "favorite": false,
       "createdAt": "2026-07-26T09:05:54.835Z",
       "updatedAt": "2026-07-26T09:09:33.971Z"
+    },
+    {
+      "title": "Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@14010c9",
+      "summary": "",
+      "notes": "",
+      "keywords": [],
+      "tags": [],
+      "sections": [],
+      "resources": [
+        {
+          "url": "https://github.com/NayanSayaji/knowledge-base/commit/14010c96fb4f9880cfd16d79381b1c16704682cb",
+          "title": "Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@14010c9",
+          "type": "article",
+          "website": "github.com"
+        }
+      ],
+      "relations": [],
+      "id": "6a350012-1eeb-4049-9663-0466470b3cff",
+      "slug": "sync-1-knowlegegraph-change-nayansayaji-knowledge-base-14010c9",
+      "archived": false,
+      "favorite": false,
+      "createdAt": "2026-08-01T13:27:22.859Z",
+      "updatedAt": "2026-08-01T13:27:22.859Z"
     },
     {
       "title": "How to Guarantee API Idempotency? Achieving Idempotency Under High Concurrency | by Umesh Kumar Yadav | Jun, 2026 | Medium",
