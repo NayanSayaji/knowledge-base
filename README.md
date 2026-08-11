@@ -4,7 +4,7 @@
 
 **A searchable, version-controlled map of everything you learn.**
 
-![Knowledge nodes](https://img.shields.io/badge/knowledge_nodes-16-176b4d?style=flat-square)
+![Knowledge nodes](https://img.shields.io/badge/knowledge_nodes-17-176b4d?style=flat-square)
 ![Sections](https://img.shields.io/badge/sections-21-315f52?style=flat-square)
 ![Storage](https://img.shields.io/badge/storage-Markdown-d89b4a?style=flat-square)
 
@@ -41,7 +41,7 @@
 | review | 1 |
 | System Design | 3 |
 | SYstem Design | 1 |
-| Unsorted | 4 |
+| Unsorted | 5 |
 
 ## ⭐ Favorites
 
@@ -237,12 +237,13 @@ _No favorites yet._
 </details>
 
 <details open>
-<summary><strong>Unsorted</strong> · 4 topics</summary>
+<summary><strong>Unsorted</strong> · 5 topics</summary>
 
 | Topic | Summary | Tags | Updated |
 | --- | --- | --- | --- |
 | [Chrome Firefox Extension Plan](knowledge/nodes/chrome-firefox-extension-plan.md) | Notes coming soon. | — | 2026-07-26 |
 | [Extensions](knowledge/nodes/extensions.md) | Notes coming soon. | — | 2026-07-27 |
+| [Summarize with built-in AI  \|  AI on Chrome  \|  Chrome for Developers](knowledge/nodes/summarize-with-built-in-ai-ai-on-chrome-chrome-for-developers.md) | Notes coming soon. | — | 2026-08-11 |
 | [Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@14010c9](knowledge/nodes/sync-1-knowlegegraph-change-nayansayaji-knowledge-base-14010c9.md) | Notes coming soon. | — | 2026-08-01 |
 | [Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@cef5184](knowledge/nodes/sync-1-knowlegegraph-change-nayansayaji-knowledge-base-cef5184.md) | Notes coming soon. | — | 2026-07-31 |
 
@@ -252,6 +253,7 @@ _No favorites yet._
 
 | Topic | Summary | Tags | Updated |
 | --- | --- | --- | --- |
+| [Summarize with built-in AI  \|  AI on Chrome  \|  Chrome for Developers](knowledge/nodes/summarize-with-built-in-ai-ai-on-chrome-chrome-for-developers.md) | Notes coming soon. | — | 2026-08-11 |
 | [Interview: How to Generate Unique IDs for Billions of Users? - Freedium](knowledge/nodes/interview-how-to-generate-unique-ids-for-billions-of-users-freedium.md) | Notes coming soon. | — | 2026-08-11 |
 | [KnowlegeGraph — Developer Field Notes](knowledge/nodes/knowlegegraph-developer-field-notes.md) | Notes coming soon. | `asdfghf` `fgh` `hgj` `ghjknm.` | 2026-08-01 |
 | [Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@14010c9](knowledge/nodes/sync-1-knowlegegraph-change-nayansayaji-knowledge-base-14010c9.md) | Notes coming soon. | — | 2026-08-01 |
@@ -259,9 +261,8 @@ _No favorites yet._
 | [Freedium — Reading, without the wall.](knowledge/nodes/freedium-reading-without-the-wall.md) | Notes coming soon. | — | 2026-07-31 |
 | [System Design Interview: How Would You Let Users Upload Huge Files Even If the Internet Disconnects Midway? \| by Arvind Kumar \| Jun, 2026 \| Medium](knowledge/nodes/system-design-interview-how-would-you-let-users-upload-huge-files-even-if-the-internet-disconnects-midway-by-arvind-kumar-jun-2026-medium.md) | Notes coming soon. | — | 2026-07-31 |
 | [How to Guarantee API Idempotency? Achieving Idempotency Under High Concurrency \| by Umesh Kumar Yadav \| Jun, 2026 \| Medium](knowledge/nodes/how-to-guarantee-api-idempotency-achieving-idempotency-under-high-concurrency-by-umesh-kumar-yadav-jun-2026-medium.md) | Notes coming soon. | — | 2026-07-31 |
-| [Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@cef5184](knowledge/nodes/sync-1-knowlegegraph-change-nayansayaji-knowledge-base-cef5184.md) | Notes coming soon. | — | 2026-07-31 |
 
 ---
 
-<sub>Last synchronized 2026-08-11T07:56:48.426Z. Generated automatically—edit knowledge in
+<sub>Last synchronized 2026-08-11T08:12:29.133Z. Generated automatically—edit knowledge in
 the extension so local data and repository history stay consistent.</sub>
