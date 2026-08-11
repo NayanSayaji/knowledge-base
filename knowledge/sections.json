@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T07:54:50.474Z",
+  "generatedAt": "2026-08-11T07:56:48.425Z",
   "sections": [
     {
       "name": "3d",
@@ -155,9 +155,10 @@
       "slug": "system-design",
       "nodeIds": [
         "fcc7ffc4-5f28-488f-a07a-505c295b44f2",
-        "c8152e75-e964-4951-9975-c66113e82b0d"
+        "c8152e75-e964-4951-9975-c66113e82b0d",
+        "bc32055a-b74a-4151-8eeb-dcdb7a46008f"
       ],
-      "count": 2
+      "count": 3
     },
     {
       "name": "SYstem Design",
@@ -174,10 +175,9 @@
         "c9dd26a2-1f08-407c-9f2b-dc7af0ad8952",
         "b6f06e45-fc79-4191-a144-a4e909f1aa4f",
         "37058dfa-416e-4394-bcc6-886df03bfc18",
-        "6a350012-1eeb-4049-9663-0466470b3cff",
-        "bc32055a-b74a-4151-8eeb-dcdb7a46008f"
+        "6a350012-1eeb-4049-9663-0466470b3cff"
       ],
-      "count": 5
+      "count": 4
     }
   ]
 }
