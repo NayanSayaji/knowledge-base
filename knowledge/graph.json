@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-01T13:30:42.059Z",
+  "generatedAt": "2026-08-11T07:54:50.468Z",
   "nodes": [
     {
+      "id": "291bbe22-f946-4391-a19a-02b228f072a9",
       "title": "KnowlegeGraph — Developer Field Notes",
+      "slug": "knowlegegraph-developer-field-notes",
       "summary": "",
       "notes": "",
       "keywords": [
@@ -33,15 +35,15 @@
         }
       ],
       "relations": [],
-      "id": "291bbe22-f946-4391-a19a-02b228f072a9",
-      "slug": "knowlegegraph-developer-field-notes",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-31T17:47:18.537Z",
       "updatedAt": "2026-08-01T13:30:42.034Z"
     },
     {
+      "id": "3436c2c8-f17e-41a5-b9ce-d05a7dc11c73",
       "title": "LangGraph: Agent Orchestration Framework for Reliable AI Agents",
+      "slug": "langgraph-agent-orchestration-framework-for-reliable-ai-agents",
       "summary": "",
       "notes": "",
       "keywords": [],
@@ -59,15 +61,15 @@
         }
       ],
       "relations": [],
-      "id": "3436c2c8-f17e-41a5-b9ce-d05a7dc11c73",
-      "slug": "langgraph-agent-orchestration-framework-for-reliable-ai-agents",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-26T16:00:25.909Z",
       "updatedAt": "2026-07-26T16:00:25.909Z"
     },
     {
+      "id": "37058dfa-416e-4394-bcc6-886df03bfc18",
       "title": "Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@cef5184",
+      "slug": "sync-1-knowlegegraph-change-nayansayaji-knowledge-base-cef5184",
       "summary": "",
       "notes": "",
       "keywords": [],
@@ -82,8 +84,6 @@
         }
       ],
       "relations": [],
-      "id": "37058dfa-416e-4394-bcc6-886df03bfc18",
-      "slug": "sync-1-knowlegegraph-change-nayansayaji-knowledge-base-cef5184",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-31T17:39:13.816Z",
@@ -116,7 +116,9 @@
       "updatedAt": "2026-07-26T09:09:33.971Z"
     },
     {
+      "id": "6a350012-1eeb-4049-9663-0466470b3cff",
       "title": "Sync 1 KnowlegeGraph change · NayanSayaji/knowledge-base@14010c9",
+      "slug": "sync-1-knowlegegraph-change-nayansayaji-knowledge-base-14010c9",
       "summary": "",
       "notes": "",
       "keywords": [],
@@ -131,15 +133,15 @@
         }
       ],
       "relations": [],
-      "id": "6a350012-1eeb-4049-9663-0466470b3cff",
-      "slug": "sync-1-knowlegegraph-change-nayansayaji-knowledge-base-14010c9",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-08-01T13:27:22.859Z",
       "updatedAt": "2026-08-01T13:27:22.859Z"
     },
     {
+      "id": "88573983-c28a-43fc-871f-889a0565c51d",
       "title": "How to Guarantee API Idempotency? Achieving Idempotency Under High Concurrency | by Umesh Kumar Yadav | Jun, 2026 | Medium",
+      "slug": "how-to-guarantee-api-idempotency-achieving-idempotency-under-high-concurrency-by-umesh-kumar-yadav-jun-2026-medium",
       "summary": "",
       "notes": "",
       "keywords": [],
@@ -156,15 +158,15 @@
         }
       ],
       "relations": [],
-      "id": "88573983-c28a-43fc-871f-889a0565c51d",
-      "slug": "how-to-guarantee-api-idempotency-achieving-idempotency-under-high-concurrency-by-umesh-kumar-yadav-jun-2026-medium",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-31T18:05:32.330Z",
       "updatedAt": "2026-07-31T18:05:32.330Z"
     },
     {
+      "id": "96fd061e-3175-4ff1-91c5-b924bc8c6424",
       "title": "KnowlegeGraph Documentation",
+      "slug": "knowlegegraph-documentation",
       "summary": "",
       "notes": "",
       "keywords": [
@@ -187,15 +189,15 @@
         }
       ],
       "relations": [],
-      "id": "96fd061e-3175-4ff1-91c5-b924bc8c6424",
-      "slug": "knowlegegraph-documentation",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-26T16:18:49.066Z",
       "updatedAt": "2026-07-31T17:37:27.990Z"
     },
     {
+      "id": "a23f92e7-7d9a-4371-b5ec-6b9e77296c84",
       "title": "System Design Interview: How Would You Let Users Upload Huge Files Even If the Internet Disconnects Midway? | by Arvind Kumar | Jun, 2026 | Medium",
+      "slug": "system-design-interview-how-would-you-let-users-upload-huge-files-even-if-the-internet-disconnects-midway-by-arvind-kumar-jun-2026-medium",
       "summary": "",
       "notes": "",
       "keywords": [],
@@ -212,17 +214,13 @@
         }
       ],
       "relations": [],
-      "id": "a23f92e7-7d9a-4371-b5ec-6b9e77296c84",
-      "slug": "system-design-interview-how-would-you-let-users-upload-huge-files-even-if-the-internet-disconnects-midway-by-arvind-kumar-jun-2026-medium",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-31T18:13:53.640Z",
       "updatedAt": "2026-07-31T18:17:06.049Z"
     },
     {
-      "id": "b6f06e45-fc79-4191-a144-a4e909f1aa4f",
       "title": "Extensions",
-      "slug": "extensions",
       "summary": "",
       "notes": "",
       "keywords": [],
@@ -237,13 +235,40 @@
         }
       ],
       "relations": [],
+      "id": "b6f06e45-fc79-4191-a144-a4e909f1aa4f",
+      "slug": "extensions",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-27T12:15:07.379Z",
       "updatedAt": "2026-07-27T12:15:07.379Z"
     },
     {
+      "title": "Interview: How to Generate Unique IDs for Billions of Users? - Freedium",
+      "summary": "",
+      "notes": "",
+      "keywords": [],
+      "tags": [],
+      "sections": [],
+      "resources": [
+        {
+          "url": "https://freedium-mirror.cfd/https://medium.com/javarevisited/interview-how-to-generate-unique-ids-for-billions-of-users-ea1a2e8604cb",
+          "title": "Interview: How to Generate Unique IDs for Billions of Users? - Freedium",
+          "type": "article",
+          "website": "freedium-mirror.cfd"
+        }
+      ],
+      "relations": [],
+      "id": "bc32055a-b74a-4151-8eeb-dcdb7a46008f",
+      "slug": "interview-how-to-generate-unique-ids-for-billions-of-users-freedium",
+      "archived": false,
+      "favorite": false,
+      "createdAt": "2026-08-11T07:53:15.323Z",
+      "updatedAt": "2026-08-11T07:53:15.323Z"
+    },
+    {
+      "id": "bc763847-e913-4691-9e1b-c419d15479b3",
       "title": "Redis as agent memory | Docs",
+      "slug": "redis-as-agent-memory-docs",
       "summary": "",
       "notes": "",
       "keywords": [
@@ -265,15 +290,15 @@
         }
       ],
       "relations": [],
-      "id": "bc763847-e913-4691-9e1b-c419d15479b3",
-      "slug": "redis-as-agent-memory-docs",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-26T15:31:52.362Z",
       "updatedAt": "2026-07-26T15:32:33.897Z"
     },
     {
+      "id": "c8152e75-e964-4951-9975-c66113e82b0d",
       "title": "Freedium — Reading, without the wall.",
+      "slug": "freedium-reading-without-the-wall",
       "summary": "",
       "notes": "",
       "keywords": [],
@@ -292,15 +317,15 @@
         }
       ],
       "relations": [],
-      "id": "c8152e75-e964-4951-9975-c66113e82b0d",
-      "slug": "freedium-reading-without-the-wall",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-31T16:30:56.690Z",
       "updatedAt": "2026-07-31T18:41:04.419Z"
     },
     {
+      "id": "c9dd26a2-1f08-407c-9f2b-dc7af0ad8952",
       "title": "Chrome Firefox Extension Plan",
+      "slug": "chrome-firefox-extension-plan",
       "summary": "",
       "notes": "",
       "keywords": [],
@@ -315,15 +340,15 @@
         }
       ],
       "relations": [],
-      "id": "c9dd26a2-1f08-407c-9f2b-dc7af0ad8952",
-      "slug": "chrome-firefox-extension-plan",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-26T15:09:39.628Z",
       "updatedAt": "2026-07-26T15:09:39.628Z"
     },
     {
+      "id": "d72b0542-a773-41a5-a2fa-b082b756124d",
       "title": "URL Shortener System Design at Global Scale: Replication Lag, Fallbacks, and Takedowns | Code Like A Girl",
+      "slug": "url-shortener-system-design-at-global-scale-replication-lag-fallbacks-and-takedowns-code-like-a-girl",
       "summary": "",
       "notes": "",
       "keywords": [],
@@ -340,15 +365,15 @@
         }
       ],
       "relations": [],
-      "id": "d72b0542-a773-41a5-a2fa-b082b756124d",
-      "slug": "url-shortener-system-design-at-global-scale-replication-lag-fallbacks-and-takedowns-code-like-a-girl",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-31T17:17:30.503Z",
       "updatedAt": "2026-07-31T17:18:06.302Z"
     },
     {
+      "id": "e5cbb4f4-1a18-419f-9f41-7da96a87156a",
       "title": "System Design Interview: How Would You Implement an API Rate Limiter in a Distributed Environment? | by Arvind Kumar | Jun, 2026 | Medium",
+      "slug": "system-design-interview-how-would-you-implement-an-api-rate-limiter-in-a-distributed-environment-by-arvind-kumar-jun-2026-medium",
       "summary": "",
       "notes": "",
       "keywords": [
@@ -372,15 +397,15 @@
         }
       ],
       "relations": [],
-      "id": "e5cbb4f4-1a18-419f-9f41-7da96a87156a",
-      "slug": "system-design-interview-how-would-you-implement-an-api-rate-limiter-in-a-distributed-environment-by-arvind-kumar-jun-2026-medium",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-31T18:21:00.549Z",
       "updatedAt": "2026-07-31T19:07:36.670Z"
     },
     {
+      "id": "fcc7ffc4-5f28-488f-a07a-505c295b44f2",
       "title": "Concurrency vs. Parallelism vs. Async: Explained Clearly | Code Like A Girl",
+      "slug": "concurrency-vs-parallelism-vs-async-explained-clearly-code-like-a-girl",
       "summary": "",
       "notes": "",
       "keywords": [],
@@ -398,8 +423,6 @@
         }
       ],
       "relations": [],
-      "id": "fcc7ffc4-5f28-488f-a07a-505c295b44f2",
-      "slug": "concurrency-vs-parallelism-vs-async-explained-clearly-code-like-a-girl",
       "archived": false,
       "favorite": false,
       "createdAt": "2026-07-31T16:49:22.604Z",

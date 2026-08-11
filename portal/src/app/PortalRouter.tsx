@@ -1,7 +1,7 @@
 import { createHashRouter, Link, NavLink, Outlet, useParams } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import { useState } from "react";
-import { repositoryUrl } from "../lib/portal-data";
+import { formatDate, repositoryUrl } from "../lib/portal-data";
 import { usePortalData, PortalDataProvider } from "./PortalDataContext";
 import type { KnowledgeGraph, KnowledgeNode, PortalStats, SectionIndex } from "../types";
 import { TopicList } from "../components/TopicList";
@@ -9,14 +9,6 @@ import { buildSectionIndex, derivedStats } from "../lib/portal-data";
 
 function PortalShell() {
   const { nodes, sections, stats } = usePortalData();
-  const sectionChips = [
-    { name: "All", count: nodes.length, to: "/" },
-    ...sections.map((section) => ({
-      name: section.name,
-      count: section.count,
-      to: `/section/${encodeURIComponent(section.name)}`,
-    })),
-  ];
 
   return (
     <div className="portal-shell">
@@ -43,22 +35,12 @@ function PortalShell() {
           </a>
         </div>
         <div className="utility-bar">
-          <div className="section-links-mobile" aria-label="Sections">
-            {Array.from({ length: 3 }).map((_, row) => (
-              <div className="section-marquee" key={row}>
-                <div className="section-marquee-track">
-                  {[...sectionChips, ...sectionChips].map((section, index) => (
-                    <Link
-                      key={`${row}-${section.name}-${index}`}
-                      className={section.name === "All" ? "active" : undefined}
-                      to={section.to}
-                    >
-                      {section.name}
-                      <span>{section.count}</span>
-                    </Link>
-                  ))}
-                </div>
-              </div>
+          <div className="section-links" aria-label="Sections">
+            {sections.slice(0, 5).map((section) => (
+              <Link key={section.name} to={`/section/${encodeURIComponent(section.name)}`}>
+                {section.name}
+                <span>{section.count}</span>
+              </Link>
             ))}
           </div>
           <div className="header-note">
@@ -95,15 +77,17 @@ function TopicHome() {
         .toLowerCase();
       return !query.trim() || haystack.includes(query.trim().toLowerCase());
     });
+  const featured = recent[0];
+
   return (
     <div className="home-page">
       <section className="home-intro">
         <div>
           <p className="eyebrow">Knowledge topics</p>
-          <h1>Simple list of what you read.</h1>
+          <h1>Simple notes, linked by idea.</h1>
         </div>
         <div className="intro-note">
-          <p>A simple list of blogs, docs, and pages you want to keep in one place.</p>
+          <p>A minimal reading list for systems, software, and the links between them.</p>
           <input
             className="home-search"
             value={query}
@@ -125,39 +109,46 @@ function TopicHome() {
         </div>
       </section>
 
-      <section className="collection-feed">
-        <div className="collection-heading">
-          <div>
-            <p className="collection-label">The collection</p>
-            <h2>All topics</h2>
+      {featured && (
+        <section className="featured-wrap">
+          <p className="collection-label">Latest entry</p>
+          <a className="featured-story" href={featured.resources[0]?.url ?? `#/topic/${featured.slug}`}>
+            <div className="featured-meta">
+              <span>{featured.sections[0] ?? "Unsorted"}</span>
+              <time dateTime={featured.updatedAt}>{formatDate(featured.updatedAt)}</time>
+            </div>
+            <h2>{featured.title}</h2>
+            <p>{featured.summary || "Open this entry to read the complete note."}</p>
+            <span className="read-link">
+              Read entry <span aria-hidden="true">↗</span>
+            </span>
+          </a>
+        </section>
+      )}
+
+      <div className="collection-layout">
+        <section className="collection-feed">
+          <div className="collection-heading">
+            <div>
+              <p className="collection-label">The collection</p>
+              <h2>Recently updated</h2>
+            </div>
           </div>
-        </div>
-        <TopicList nodes={recent.filter((node) => {
-          const haystack = [
-            node.title,
-            node.summary,
-            node.notes,
-            node.sections.join(" "),
-            node.tags.join(" "),
-            node.keywords.join(" "),
-            node.resources.map((resource) => resource.url).join(" "),
-          ]
-            .join(" ")
-            .toLowerCase();
-          return !query.trim() || haystack.includes(query.trim().toLowerCase());
-        })} />
-      </section>
-
-      <aside className="collection-sections collection-sections-rail">
-        <p className="collection-label">Sections</p>
-        {sections.map((section) => (
-          <Link key={section.name} to={`/section/${encodeURIComponent(section.name)}`}>
-            <span>{section.name}</span>
-            <small>{section.count}</small>
-          </Link>
-        ))}
-      </aside>
-
+          <TopicList nodes={recent.slice(featured ? 1 : 0)} />
+        </section>
+        <aside className="collection-sections">
+          <p className="collection-label">Browse sections</p>
+          {sections.map((section) => {
+            const count = nodes.filter((node) => node.sections.includes(section.name)).length;
+            return (
+              <a href={`#/section/${encodeURIComponent(section.name)}`} key={section.name}>
+                <span>{section.name}</span>
+                <small>{count}</small>
+              </a>
+            );
+          })}
+        </aside>
+      </div>
     </div>
   );
 }
